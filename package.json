@@ -19,10 +19,11 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "aws-sdk": "^2.175.0",
+    "aws-sdk": "^2.176.0",
     "expo": "^23.0.4",
     "react": "16.0.0",
     "react-native": "0.50.3",
-    "react-native-router-flux": "^4.0.0-beta.24"
+    "react-native-router-flux": "^4.0.0-beta.24",
+    "watchman": "^1.0.0"
   }
 }

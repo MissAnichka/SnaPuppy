@@ -1,6 +1,7 @@
-import AWS from '../AWS';
+// import aws from '../AWS';
 import CameraExample from './Camera';
-
+let AWS = require('aws-sdk/dist/aws-sdk-react-native');
+AWS.config.loadFromPath('./config.json');
 const rekognition = new AWS.Rekognition();
 
 let params = {
